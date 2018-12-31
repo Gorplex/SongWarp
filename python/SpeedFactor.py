@@ -31,7 +31,7 @@ def main():
     except:
         print("factor must be an flaot")
         exit()
-    music(sys.argv[1], factor, outFile)    
+    music(sys.argv[1], int(factor), outFile)    
 
     
 if __name__=="__main__":main()
